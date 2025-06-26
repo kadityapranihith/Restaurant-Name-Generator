@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import SequentialChain
 
 def generate_name_and_items(cuisine):
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyBJIuu49S76KqdDslnTnO5GPtGMnJpEcLU"
+    os.environ["GOOGLE_API_KEY"] = "your_api_key"
     llm = ChatGoogleGenerativeAI(
         model="gemini-1.5-flash",  # or gemini-1.5-pro
         temperature=1
