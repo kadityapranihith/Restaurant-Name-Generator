@@ -1,6 +1,8 @@
 # 🍽️ Restaurant Name & Menu Generator
 
 A simple AI-powered web app that generates a **restaurant name** and **menu items** based on your chosen cuisine using **Google Generative AI**, **LangChain**, and **Streamlit**.
+---
+![App Preview](./preview.png)
 
 ---
 
